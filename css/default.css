@@ -3165,16 +3165,16 @@ html, body {
   z-index: 5;
 }
 .bigContainer .container .p1 .content {
-  width: 574px;
-  height: 823px;
+  width: 580px;
+  height: 546px;
   background-image: url("../images/p01.png");
 }
 .bigContainer .container.channel_1 .p1 {
   display: block;
 }
 .bigContainer .container .p2 .content {
-  width: 551px;
-  height: 729px;
+  width: 552px;
+  height: 565px;
   background-image: url("../images/p02.png");
 }
 .bigContainer .container.channel_2 .p2 {
@@ -3182,7 +3182,7 @@ html, body {
 }
 .bigContainer .container .p3 .content {
   width: 519px;
-  height: 530px;
+  height: 346px;
   background-image: url("../images/p03.png");
 }
 .bigContainer .container.channel_3 .p3 {
@@ -3190,7 +3190,7 @@ html, body {
 }
 .bigContainer .container .p4 .content {
   width: 548px;
-  height: 755px;
+  height: 605px;
   background-image: url("../images/p04.png");
 }
 .bigContainer .container.channel_4 .p4 {
@@ -3230,7 +3230,7 @@ html, body {
   display: none;
 }
 .page .content {
-  top: 110px;
+  top: 250px;
   left: 50%;
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -3341,45 +3341,35 @@ html, body {
 
 .page .topWrap {
   width: 100%;
-  top: 10px;
+  top: 0px;
   left: 0;
-  background-image: url("../images/top2.png");
+  background-image: url("../images/top.png");
   height: 235px;
   background-size: 100% 100%;
   position: absolute;
-}
-.page .topWrap .logoPic {
-  width: 228px;
-  height: 151px;
-  background-image: url("../images/logotop.png");
-  position: absolute;
-  top: 50px;
-  left: 0;
+  z-index: 5;
 }
 
-.p1 .topWrap {
-  top: 0;
-  background-image: url("../images/top.png");
-  height: 235px;
-}
-.p1 .topWrap .logoPic {
-  top: 60px;
+.p1 .txt {
+  width: 93px;
+  height: 8px;
+  background-image: url("../images/word.png");
+  position: absolute;
+  left: 15px;
+  bottom: 90px;
 }
 .p1 .manPic {
-  width: 296px;
-  height: 500px;
-  background-image: url("../images/p01_1.png");
+  width: 270px;
+  height: 754px;
+  background-image: url("../images/man.png");
   position: absolute;
   right: 0;
-  bottom: 0;
-}
-.p1 .content {
-  top: 0;
+  bottom: 85px;
 }
 
 .pageBtn {
   position: absolute;
-  top: 300px;
+  top: 130px;
   left: 40px;
   width: 200px;
   height: 250px;
@@ -3388,7 +3378,7 @@ html, body {
   left: 300px;
 }
 .pageBtn.mapBtn {
-  top: 570px;
+  top: 430px;
   left: 360px;
 }
 

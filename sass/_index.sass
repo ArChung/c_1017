@@ -72,7 +72,7 @@ html,body
 	+fullPage
 	display: none
 	.content
-		top: 110px
+		top: 250px
 		left: 50%
 		+transform(translateX(-50%))
 		position: relative
@@ -157,43 +157,48 @@ html,body
 .page 
 	.topWrap
 		width: 100%
-		top: 10px
+		top: 0px
 		left: 0
-		+bgi('top2.png')
-		height: 235px
-		background-size: 100% 100%
-		position: absolute
-		.logoPic
-			+bg('logotop.png') 
-			position: absolute
-			top: 50px	
-			left: 0
-.p1
-	.topWrap
-		top: 0
 		+bgi('top.png')
 		height: 235px
-		.logoPic
-			top: 60px
-		
+		background-size: 100% 100% 
+		position: absolute
+		z-index: 5
+		// .logoPic
+		// 	+bg('logotop.png') 
+		// 	position: absolute
+		// 	top: 50px	
+		// 	left: 0
+.p1
+	// .topWrap
+	// 	top: 0
+	// 	+bgi('top.png')
+	// 	height: 235px
+	// 	.logoPic
+	// 		top: 60px
+	.txt
+		+bg('word.png')
+		position: absolute
+		left: 15px
+		bottom: 90px
 		
 	.manPic
-		+bg('p01_1.png')
+		+bg('man.png')
 		position: absolute
 		right: 0
-		bottom: 0
-	.content
-		top: 0
+		bottom: 85px
+	// .content
+	// 	top: 0
 
 .pageBtn
 	position: absolute
-	top: 300px
+	top: 130px
 	left: 40px
 	// border: 1px solid #000			
 	width: 200px
-	height: 250px
+	height: 250px 
 	&.calendarBtn
 		left: 300px
 	&.mapBtn
-		top: 570px
+		top: 430px
 		left: 360px

@@ -3343,8 +3343,9 @@ html, body {
   width: 100%;
   top: 0px;
   left: 0;
+  width: 640px;
+  height: 270px;
   background-image: url("../images/top.png");
-  height: 235px;
   background-size: 100% 100%;
   position: absolute;
   z-index: 5;
